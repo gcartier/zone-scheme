@@ -1,0 +1,18 @@
+;;;==============
+;;;  JazzScheme
+;;;==============
+;;;
+;;;; Zone
+;;;
+
+
+(data jazz
+
+
+(version 1 4)
+(import world.data
+        world.generation)
+
+
+(form
+  (<Zone> start-time: night start-skybox: "earth" start-mode: first-person start-distance: 3.5 seed: -4140317442033131239 first-time?: #f)))
